@@ -1,0 +1,242 @@
+body{
+    background:linear-gradient(to right,green,greenyellow);
+}
+.header img{
+    width: 80px;
+    height: 50px;
+}
+.header h2{
+    margin: 0px;
+    padding: 0px;
+    padding-left: 10px;
+    font-size: 35px;
+    color: burlywood;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    border: 1px solid greenyellow;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-shadow: 5px 5px 20px grey;
+    /* position: fixed; */
+}
+li a{
+    text-decoration: none;
+    margin-left: 150px;
+    color:burlywood;
+    font-size: 25px;
+}
+ul .btn{
+    display: flex;
+    justify-content:center;
+    margin-left:300px;
+}
+ul .btn button{
+    background:linear-gradient(to right,green,greenyellow);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left:10px ;
+    border-radius: 10px;
+    border: 1px solid greenyellow;
+    box-shadow: 2px 2px 2px grey;
+    color: green;
+}
+ul .search-items{
+    display: flex;
+    align-items: center;
+}
+.search{
+    margin: 0%;
+    margin-left: 10px;
+    border: 1px solid greenyellow;
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 10px;
+}
+.search input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid greenyellow;
+}
+.search label{
+    padding-right: 10px;
+    color: green;
+}
+
+h1{
+    font-family:cursive;
+    font-size: 80px;
+    text-align: center;
+    color: burlywood;
+}
+#welcome{
+    width:1000px;
+    height: 500px;
+    margin-left: 500px;
+}
+.home h2{
+    font-size: 25px;
+    color: burlywood;
+}
+.home p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(56, 93, 2);
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    line-height:40px ;
+}
+.home span{
+    font-weight: bolder;
+}
+/* About page */
+/* ------------------------------------------------------------ */
+
+.about h3{
+    color: burlywood;
+    font-weight: bold;
+    font-size: 25px;
+}
+.about p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(56, 93, 2);
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    line-height:40px ;
+}
+.about span{
+    font-weight: bolder;
+}
+/* Menu page */
+/* --------------------------------------------------- */
+#break{
+    color: burlywood;
+    text-align: center;
+    font-size: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+.breakfast{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+}
+.breakfast table{
+    width: 100%;
+    font-size: 30px;
+    padding: 1em;
+}
+.breakfast tr{
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+    
+}
+.breakfast td:nth-child(1){
+    flex:1;
+    justify-self: left;
+}
+.breakfast td:nth-child(2){
+    flex: .5;
+    justify-self: right;
+}
+table th{
+    color: burlywood;
+}
+table td{
+    color: rgb(56, 93, 2);
+}
+
+#lunch{
+    color: burlywood;
+    text-align: center;
+    font-size: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.lunch{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+}
+.lunch table{
+    width: 100%;
+    font-size: 30px;
+    padding: 0.5em;
+}
+.lunch tr{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.lunch td:nth-child(1){
+    flex: 1;
+    justify-self: left;
+}
+.lunch td:nth-child(2){
+    flex: .5;
+    justify-self:right;
+}
+
+.dinner{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+}
+
+.dinner table{
+    width: 100%;
+    font-size: 30px;
+    padding: .5em;
+}
+.dinner tr{
+    display: flex;
+    justify-content: center;
+}
+.dinner td:nth-child(1){
+    flex: 1;
+    justify-self: left;
+}
+.dinner td:nth-child(2){
+    justify-self: right;
+}
+#dinner{
+    color: burlywood;
+    text-align: center;
+    font-size: 50px;
+}
+
+/* Contact page */
+/* -------------------------------------------------- */
+
+.con{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+}
+
+.contact h2,.contact p{
+    display: flex;
+    justify-content: center;
+}
+
+.contact h2{
+    color: burlywood;
+}
+.contact p{
+    color: rgb(56, 93, 2);
+}
+
+.footer{
+    background:linear-gradient(to right,green,yellow);
+    border: 1px solid greenyellow;
+    box-shadow: 2px 2px 2px grey;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
